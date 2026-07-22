@@ -75,7 +75,7 @@ Customer-Sales-Revenue-Analytics/
 │
 ├── SQL/
 │   ├── 01_Create_Tables.sql
-│   ├── 02_Insert_Data.sql
+│   ├── 02_data_import_guide.sql
 │   ├── 03_Views.sql
 │   ├── 04_Indexes.sql
 │   ├── 05_Business_Queries.sql
@@ -108,6 +108,25 @@ Customer-Sales-Revenue-Analytics/
 ```
 
 ---
+
+## Dataset
+
+The sample data is provided in the `Dataset` folder as CSV files.
+
+Import the CSV files into Oracle SQL Developer after executing `01_Create_Tables.sql`.
+
+**Recommended import order:**
+
+1. Customers
+2. Categories
+3. Suppliers
+4. Products
+5. Employees
+6. Regions
+7. Sales_Orders
+8. Sales_Order_Details
+9. Payments
+10. Returns
 
 ## SQL Concepts Demonstrated
 
